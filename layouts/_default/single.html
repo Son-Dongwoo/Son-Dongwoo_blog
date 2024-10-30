@@ -4,6 +4,17 @@
       {{- $date := (dateFormat "02. January 2006" .Date) -}}
       <p class=post_date>{{ $date }}</p>
       <h1 class="post_title">{{ .Title }}</h1>
+      <p>Tags:
+        <span>
+          {{ $tags := .Params.tags }}
+          {{ range $index, $tag := $tags }}
+            <span>
+                <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}" target="_self">{{ $tag }}</a>
+            </span>{{ if ne (add $index 1) (len $tags) }},{{ end }}  <!-- 쉼표 뒤 공백 제거 -->
+          {{ end }}
+        </span>
+      </p>
+    </div>
       <div class="post_body">
         <div class="post_inner">
         {{ $image := partial "func/getImage" . }}

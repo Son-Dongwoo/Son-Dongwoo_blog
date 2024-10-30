@@ -1,9 +1,6 @@
 baseurl = "https://example.com/"  # Include trailing slash
 title = "dnd-qodqks's blog"
-# this example loads the theme as hugo module
-# comment out line below, and uncomment the line after it if you prefer to load the theme normally
 theme = "newsroom"
-author = "dnd-qodqks"
 canonifyurls = true
 paginate = 6
 

@@ -10,3 +10,4 @@ defaultMode = "dark" # Note that the UI control for toggling darkmode will remai
 logo = "" # if the value is an empty string, the site title will be shown instead
 faviconsDir = "images/icons/" # with a trailing slash
 blogDir = "posts" # edit
+copyright = "dnd-qodqks"

@@ -4,7 +4,7 @@ draft = true
 title = 'Test'
 description = "테스트 글 작성해보기"
 categories = ["stm32"]
-tags = ["공부"]
+tags = ["공부", "trouble_shooting"]
 image = "/images/logo1.png"
 +++
 
