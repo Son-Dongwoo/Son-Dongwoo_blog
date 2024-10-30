@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"  # Include trailing slash
+baseurl = "https://dnd-qodqks.github.io/"  # Include trailing slash
 title = "dnd-qodqks's blog"
 theme = "newsroom"
 canonifyurls = true
