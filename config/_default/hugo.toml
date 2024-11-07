@@ -1,5 +1,5 @@
-baseurl = "https://dnd-qodqks.github.io/"  # Include trailing slash
-title = "dnd-qodqks's blog"
+baseurl = "https://Son-Dongwoo.github.io/"  # Include trailing slash
+title = "Dongwoo's blog"
 theme = "newsroom"
 canonifyurls = true
 paginate = 6

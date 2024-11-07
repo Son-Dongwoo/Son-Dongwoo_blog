@@ -10,7 +10,7 @@
           {{ range $index, $tag := $tags }}
             <span>
                 <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}" target="_self">{{ $tag }}</a>
-            </span>{{ if ne (add $index 1) (len $tags) }},{{ end }}  <!-- 쉼표 뒤 공백 제거 -->
+            </span>{{ if ne (add $index 1) (len $tags) }} | {{ end }}  <!-- 쉼표 뒤 공백 제거 -->
           {{ end }}
         </span>
       </p>
